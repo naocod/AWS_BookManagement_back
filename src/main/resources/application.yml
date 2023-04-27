@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book_management
+    username: root
+    password: 1q2w3e4r
+    
+mybatis:
+  mapper-locations:
+  - /mappers/*.xml
+  
+jwt:
+  secret: C5qGLKgNROjh7pJJb79fghDrvSg4V7kvG1U0iuHAUBDryyfE3k7pUCCvI9s1hmUG
